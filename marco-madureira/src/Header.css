@@ -17,15 +17,28 @@
 }
 
 .logo-icon {
-  width: 70px;
-  height: 70px;
-  transform: scale(1.5);
+  width:100px;
+  height: 100px; 
+}
+
+.zap-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .zap {
   width: 30px;
   height: 30px;
   transform: scale(1.5);
+}
+
+.zap-text{
+  font-size: 12px;
+  color: #fff ;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
 }
 
 .menu-dropdown {

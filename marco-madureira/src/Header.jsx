@@ -33,14 +33,16 @@ const Header = () => {
         title="Logo"
         className="logo-icon"
       />
+      <div className="zap-div">
       <a href="">
         <img
           src="src/assets/zap.png"
           alt="Whatsapp"
           title="Contanto"
           className="zap"
-        />
+        /> 
       </a>
+     </div>
     </div>
   );
 };

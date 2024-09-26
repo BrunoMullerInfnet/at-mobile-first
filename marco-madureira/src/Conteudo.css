@@ -90,12 +90,21 @@
   color: #1e3a8a;
 }
 
-.proposta-arma {
+.proposta-sub {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5  px;
 }
 
-.proposta-arma img {
+.proposta-sub img {
   width: 50px;
+}
+
+.empresa{
+  width: 40px !important; 
+}
+
+.livro{
+  transform: scale(1.3);
 }
