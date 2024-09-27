@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header-content">
+    <div className="header-content" id="inicio">
       <nav>
         <img
           src="src/assets/menu-icon.png"
@@ -20,10 +20,18 @@ const Header = () => {
         />
         {menuOn && (
           <div className="menu-dropdown">
-            <a href="Início">Início</a>
-            <a href="Propostas">Propostas</a>
-            <a href="Notícias">Notícias</a>
-            <a href="História">História</a>
+            <a href="#inicio" onClick={toggleMenu}>
+              Início
+            </a>
+            <a href="#propostas" onClick={toggleMenu}>
+              Propostas
+            </a>
+            <a href="#noticias" onClick={toggleMenu}>
+              Notícias
+            </a>
+            <a href="#historia" onClick={toggleMenu}>
+              História
+            </a>
           </div>
         )}
       </nav>
@@ -34,15 +42,15 @@ const Header = () => {
         className="logo-icon"
       />
       <div className="zap-div">
-      <a href="">
-        <img
-          src="src/assets/zap.png"
-          alt="Whatsapp"
-          title="Contanto"
-          className="zap"
-        /> 
-      </a>
-     </div>
+        <a href="">
+          <img
+            src="src/assets/zap.png"
+            alt="Whatsapp"
+            title="Contanto"
+            className="zap"
+          />
+        </a>
+      </div>
     </div>
   );
 };
