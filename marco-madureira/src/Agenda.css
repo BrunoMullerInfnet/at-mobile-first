@@ -84,7 +84,6 @@
   width: 100%;
   padding-top: 20px;
   text-align: center;
-  text-justify: newspaper;
 }
 
 .agenda-sub {
@@ -92,4 +91,49 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .agenda-section {
+    margin-top: 60px;
+  }
+
+  .agenda-title {
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .agenda-cards {
+    padding: 40px;
+    gap: 70px;
+  }
+
+  .agenda-date {
+    margin-bottom: 40px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .agenda-name {
+    font-size: 25px;
+  }
+
+  .agenda-name-description {
+    padding: 40px;
+  }
+
+  .agenda-card {
+    padding: 40px;
+  }
+
+  .agenda-card:hover {
+    transform: scale(1.06);
+  }
+
+  .agenda-description {
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 25px;
+  }
 }

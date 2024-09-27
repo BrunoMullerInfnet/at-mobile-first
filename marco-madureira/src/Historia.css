@@ -57,3 +57,25 @@
   font-weight: 700;
   color: #1e3a8a;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .historia-container {
+    margin-top: 60px;
+  }
+
+  .historia-card {
+    padding: 60px;
+  }
+
+  .historia-texto h2 {
+    font-size: 3rem;
+  }
+
+  .historia-texto p {
+    font-size: 2rem;
+  }
+
+  .historia-texto p::first-letter {
+    font-size: 2rem;
+  }
+}

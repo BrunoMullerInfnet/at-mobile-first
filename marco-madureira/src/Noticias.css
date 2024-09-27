@@ -67,3 +67,42 @@
   margin-top: 5px;
   text-align: left;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .noticias-container {
+    margin-top: 60px;
+  }
+
+  .noticias-title {
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .noticia-card {
+    padding: 40px;
+  }
+
+  .noticia-descricao h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .noticia-card:hover {
+    transform: scale(1.06);
+  }
+
+  .noticia-imagem {
+    object-position: top;
+    height: 260px;
+  }
+
+  .noticia-descricao p {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  .proposta-description {
+    font-size: 25px;
+  }
+}

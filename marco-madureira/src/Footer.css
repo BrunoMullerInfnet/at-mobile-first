@@ -82,3 +82,50 @@
 .insta {
   width: 50px;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .footer-container {
+    padding: 80px 40px;
+    margin-top: 60px;
+  }
+
+  .footer-content {
+    padding: 60px;
+  }
+
+  .form-header {
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .anti-communism-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .form-title {
+    font-size: 2rem;
+  }
+
+  .newsletter-form {
+    gap: 25px;
+  }
+
+  .form-input {
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+
+  .form-submit-btn {
+    margin-top: 15px;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+  }
+  .div-rede-social {
+    margin-top: 40px;
+  }
+
+  .insta {
+    width: 100px;
+  }
+}

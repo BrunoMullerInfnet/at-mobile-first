@@ -120,3 +120,67 @@
 .back-to-top:hover {
   background-color: #b71c3c;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  * {
+    max-width: 768px;
+  }
+
+  .header-content {
+    height: 150px;
+    gap: 150px;
+  }
+
+  .menu-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .zap {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-dropdown {
+    top: 95px;
+    height: calc(100vh - 150px);
+    gap: 100px;
+    width: 30%;
+    padding-top: 80px;
+  }
+
+  .menu-dropdown a {
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+  }
+
+  .apresentation-card {
+    margin: 20px 0 40px 0;
+  }
+
+  .politico {
+    height: 160px;
+  }
+
+  .apresentation-text {
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .back-to-top {
+    height: 80px;
+    width: 80px;
+  }
+
+  .back-to-top img {
+    transform: scale(1.5);
+  }
+}

@@ -77,3 +77,52 @@
 .corrigir {
   margin-top: 15px;
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .propostas-section {
+    margin-top: 60px;
+  }
+
+  .propostas-title {
+    padding: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .propostas-cards {
+    gap: 80px;
+    padding: 40px;
+  }
+
+  .proposta-card {
+    padding: 40px;
+  }
+
+  .proposta-card:hover {
+    transform: scale(1.06);
+  }
+
+  .proposta-sub {
+    gap: 20px;
+  }
+
+  .proposta-sub h3 {
+    font-size: 30px;
+  }
+
+  .proposta-sub img {
+    width: 70px;
+  }
+
+  .empresa {
+    width: 70px !important;
+  }
+
+  .livro {
+    transform: scale(1.4);
+  }
+
+  .proposta-description {
+    font-size: 25px;
+  }
+}
