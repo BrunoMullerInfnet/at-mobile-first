@@ -32,6 +32,7 @@ const Header = () => {
             <a href="#historia" onClick={toggleMenu}>
               História
             </a>
+            <a href="#agenda" onClick={toggleMenu}>Agenda</a>
           </div>
         )}
       </nav>

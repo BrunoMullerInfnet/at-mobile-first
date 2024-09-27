@@ -4,6 +4,8 @@ import Propostas from "./Propostas";
 import Noticias from "./Noticias";
 import Historia from "./Hisotira";
 import Footer from "./Footer";
+import Agenda from "./Agenda";
+
 const Conteudo = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -44,6 +46,7 @@ const Conteudo = () => {
       <Propostas />
       <Noticias />
       <Historia />
+      <Agenda />
       <Footer />
       {showButton && (
         <button className="back-to-top" onClick={scrollToTop}>

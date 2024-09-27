@@ -1,0 +1,95 @@
+.agenda-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.agenda-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  background: #1e3a8a;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.agenda-date {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+.agenda-name-description {
+  border: 1px solid white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.agenda-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.agenda-card {
+  background: rgba(30, 58, 138, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  margin: 0 10spx;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.agenda-card:hover {
+  transform: scale(1.03);
+}
+
+.agenda-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.agenda-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-weight: bold;
+}
+
+.agenda-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 20px;
+  border-top: 1px solid white;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  text-justify: newspaper;
+}
+
+.agenda-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

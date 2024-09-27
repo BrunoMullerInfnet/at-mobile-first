@@ -36,7 +36,12 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   flex: 1;
   margin: 0 10spx;
+  transition: transform 0.3s ease;
   text-align: center;
+}
+
+.proposta-card:hover {
+  transform: scale(1.03);
 }
 
 .proposta-title {
