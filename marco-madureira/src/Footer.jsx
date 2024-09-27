@@ -20,6 +20,19 @@ const Footer = () => {
             Inscrever-se
           </button>
         </form>
+        <div className="div-rede-social">
+          <a
+            href="https://www.instagram.com/deputadomadureira_es/"
+            target="blank"
+          >
+            <img
+              src="src/assets/instagram.png"
+              alt="Botão para acessar o instagram do Marco Madureira"
+              title="Instagram"
+              className="insta"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
