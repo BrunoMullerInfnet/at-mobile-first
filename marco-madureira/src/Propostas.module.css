@@ -1,11 +1,11 @@
-.propostas-section {
+.propostasSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
 }
 
-.propostas-title {
+.propostasTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
@@ -17,7 +17,7 @@
   white-space: nowrap;
 }
 
-.propostas-cards {
+.propostasCards {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -29,40 +29,40 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.proposta-card {
+.propostaCard {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   flex: 1;
-  margin: 0 10spx;
+  margin: 0 10px; /* Corrigido de 10spx para 10px */
   transition: transform 0.3s ease;
   text-align: center;
 }
 
-.proposta-card:hover {
+.propostaCard:hover {
   transform: scale(1.03);
 }
 
-.proposta-title {
+.propostaTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #1e3a8a;
 }
 
-.proposta-description {
+.propostaDescription {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #1e3a8a;
 }
 
-.proposta-sub {
+.propostaSub {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.proposta-sub img {
+.propostaSub img {
   width: 50px;
 }
 
@@ -79,38 +79,38 @@
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .propostas-section {
+  .propostasSection {
     margin-top: 60px;
   }
 
-  .propostas-title {
+  .propostasTitle {
     padding: 30px;
     margin-bottom: 40px;
     font-size: 40px;
   }
 
-  .propostas-cards {
+  .propostasCards {
     gap: 80px;
     padding: 40px;
   }
 
-  .proposta-card {
+  .propostaCard {
     padding: 40px;
   }
 
-  .proposta-card:hover {
+  .propostaCard:hover {
     transform: scale(1.06);
   }
 
-  .proposta-sub {
+  .propostaSub {
     gap: 20px;
   }
 
-  .proposta-sub h3 {
+  .propostaSub h3 {
     font-size: 30px;
   }
 
-  .proposta-sub img {
+  .propostaSub img {
     width: 70px;
   }
 
@@ -122,23 +122,23 @@
     transform: scale(1.4);
   }
 
-  .proposta-description {
+  .propostaDescription {
     font-size: 25px;
   }
 }
 
 @media (min-width: 1024px) {
-  .propostas-cards {
+  .propostasCards {
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .proposta-card {
+  .propostaCard {
     flex: 0 1 calc(33.33% - 20px);
     margin: 0;
   }
 
-  .proposta-card:not(:last-child) {
+  .propostaCard:not(:last-child) {
     margin-right: 20px;
   }
 

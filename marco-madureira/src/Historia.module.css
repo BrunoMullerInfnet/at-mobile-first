@@ -1,4 +1,4 @@
-.historia-container {
+.historiaContainer {
   display: flex;
   justify-content: center;
   padding: 40px;
@@ -6,7 +6,7 @@
   margin-top: 30px;
 }
 
-.historia-card {
+.historiaCard {
   background-color: #ffffff;
   padding: 30px;
   border-left: 8px solid #e11d48;
@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.historia-imagem {
+.historiaImagem {
   width: 120%;
   height: 120%;
   max-width: 600px;
@@ -29,12 +29,12 @@
   border: 4px solid #e11d48;
 }
 
-.historia-texto {
+.historiaTexto {
   text-align: left;
   color: #333;
 }
 
-.historia-texto h2 {
+.historiaTexto h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
@@ -42,7 +42,7 @@
   margin-bottom: 20px;
 }
 
-.historia-texto p {
+.historiaTexto p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
@@ -52,47 +52,47 @@
   width: 110%;
 }
 
-.historia-texto p::first-letter {
+.historiaTexto p::first-letter {
   font-size: 1.5rem;
   font-weight: 700;
   color: #1e3a8a;
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .historia-container {
+  .historiaContainer {
     margin-top: 60px;
   }
 
-  .historia-card {
+  .historiaCard {
     padding: 60px;
   }
 
-  .historia-texto h2 {
+  .historiaTexto h2 {
     font-size: 3rem;
   }
 
-  .historia-texto p {
+  .historiaTexto p {
     font-size: 2rem;
   }
 
-  .historia-texto p::first-letter {
+  .historiaTexto p::first-letter {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .historia-card {
+  .historiaCard {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .historia-imagem {
+  .historiaImagem {
     margin-right: 30px;
     margin-bottom: 0;
     height: 400px;
   }
 
-  .historia-texto {
+  .historiaTexto {
     flex: 1;
   }
 }

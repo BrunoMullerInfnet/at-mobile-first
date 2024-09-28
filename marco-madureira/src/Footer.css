@@ -132,25 +132,25 @@
 
 @media (min-width: 1024px) {
   .footer-container {
-    padding: 60px 40px; /* Ajustar o preenchimento */
-    margin-top: 60px; /* Ajustar a margem */
+    padding: 60px 40px;
+    margin-top: 60px;
   }
 
   .footer-content {
-    padding: 40px; /* Ajustar o preenchimento */
-    display: flex; /* Usar flex para a disposição */
-    flex-direction: row; /* Disposição em linha */
-    align-items: center; /* Centralizar verticalmente */
-    justify-content: space-between; /* Espaçamento entre os elementos */
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .form-header {
-    gap: 30px; /* Aumentar o espaço entre imagem e título */
+    gap: 30px;
   }
 
   .anti-communism-image {
-    width: 100px; /* Ajustar o tamanho da imagem */
-    height: 100px; /* Ajustar a altura da imagem */
+    width: 100px;
+    height: 100px;
   }
 
   .form-title {

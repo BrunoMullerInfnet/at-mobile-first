@@ -1,16 +1,16 @@
-import "./Historia.css";
+import styles from "./Historia.module.css";
 
 const Historia = () => {
   return (
-    <div className="historia-container">
-      <div className="historia-card">
+    <div className={styles.historiaContainer}>
+      <div className={styles.historiaCard}>
         <img
           src="src/assets/politico-historia.jpg"
           alt="Imagem do Candidato"
-          className="historia-imagem"
+          className={styles.historiaImagem}
           id="historia"
         />
-        <div className="historia-texto">
+        <div className={styles.historiaTexto}>
           <h2>Minha História</h2>
           <p>
             A trajetória de vida de Marco Madureira reflete seu compromisso com

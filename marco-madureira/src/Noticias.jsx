@@ -1,22 +1,22 @@
-import "./Noticias.css";
+import styles from "./Noticias.module.css";
 
 const Noticias = () => {
   return (
-    <div className="noticias-wrapper">
-      <h2 className="noticias-title" id="noticias">
+    <div className={styles.noticiasWrapper}>
+      <h2 className={styles.noticiasTitle} id="noticias">
         Notícias
       </h2>
-      <div className="noticias-container">
-        <div className="noticia-card">
-          <div className="noticia-descricao">
+      <div className={styles.noticiasContainer}>
+        <div className={styles.noticiaCard}>
+          <div className={styles.noticiaDescricao}>
             <h3>Passeata do Marco</h3>
           </div>
           <img
             src="src/assets/politico-fas.jpg"
             alt="Notícia 1"
-            className="noticia-imagem"
+            className={styles.noticiaImagem}
           />
-          <div className="noticia-descricao">
+          <div className={styles.noticiaDescricao}>
             <p>
               Marco Madureira discursa entre apoiadores e dispara: "Precisamos
               acordar contra a corrupção!"
@@ -24,16 +24,16 @@ const Noticias = () => {
           </div>
         </div>
 
-        <div className="noticia-card">
-          <div className="noticia-descricao">
+        <div className={styles.noticiaCard}>
+          <div className={styles.noticiaDescricao}>
             <h3>Defesa bombástica</h3>
           </div>
           <img
             src="src/assets/politico-defesa.jpg"
             alt="Notícia 2"
-            className="noticia-imagem"
+            className={styles.noticiaImagem}
           />
-          <div className="noticia-descricao">
+          <div className={styles.noticiaDescricao}>
             <p>
               Marco Madureira defende criação de lei que permite o Brasil
               produzir bombas nucleares.
@@ -41,16 +41,16 @@ const Noticias = () => {
           </div>
         </div>
 
-        <div className="noticia-card">
-          <div className="noticia-descricao">
+        <div className={styles.noticiaCard}>
+          <div className={styles.noticiaDescricao}>
             <h3>Confira as artes!</h3>
           </div>
           <img
             src="src/assets/politico-arte.jpg"
             alt="Notícia 3"
-            className="noticia-imagem"
+            className={styles.noticiaImagem}
           />
-          <div className="noticia-descricao">
+          <div className={styles.noticiaDescricao}>
             <p>Confira já as artes dos apoiadores sobre Marco Madureira!</p>
           </div>
         </div>

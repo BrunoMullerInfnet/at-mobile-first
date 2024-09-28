@@ -41,7 +41,8 @@ const Agenda = () => {
             <div className="agenda-name-description">
               <span className="agenda-name">Pesca Corrupto</span>
               <p className="agenda-description">
-                Marco Madureira convida a todos os seus eleitores para uma pesca comunitária na Baia de Guanabara
+                Marco Madureira convida a todos os seus eleitores para uma pesca
+                comunitária na Baia de Guanabara
               </p>
             </div>
           </div>

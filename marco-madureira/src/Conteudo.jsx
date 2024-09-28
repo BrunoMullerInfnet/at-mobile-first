@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import "./Conteudo.css";
+import styles from "./Conteudo.module.css";
 import Propostas from "./Propostas";
 import Noticias from "./Noticias";
-import Historia from "./Hisotira";
+import Historia from "./Historia";
 import Footer from "./Footer";
 import Agenda from "./Agenda";
 
@@ -33,15 +33,17 @@ const Conteudo = () => {
   }, []);
 
   return (
-    <div className="main-content">
-      <div className="apresentation-card">
+    <div className={styles["main-content"]}>
+      {" "}
+      {/* Usando styles para classes */}
+      <div className={styles["apresentation-card"]}>
         <img
           src="src/assets/politico.png"
           alt="Imagem do Marco Madureira"
           title="Marco Madureiria"
-          className="politico"
+          className={styles.politico}
         />
-        <p className="apresentation-text">Transformação já!</p>
+        <p className={styles["apresentation-text"]}>Transformação já!</p>
       </div>
       <Propostas />
       <Noticias />
@@ -49,7 +51,7 @@ const Conteudo = () => {
       <Agenda />
       <Footer />
       {showButton && (
-        <button className="back-to-top" onClick={scrollToTop}>
+        <button className={styles["back-to-top"]} onClick={scrollToTop}>
           <img
             src="src/assets/back-to-top.png"
             alt="Botão para voltar ao topo"

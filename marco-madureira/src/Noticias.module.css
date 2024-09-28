@@ -1,4 +1,8 @@
-.noticias-title {
+.noticiasWrapper {
+  margin-top: 30px;
+}
+
+.noticiasTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #1e3a8a;
@@ -11,7 +15,7 @@
   text-align: center;
 }
 
-.noticias-container {
+.noticiasContainer {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -21,10 +25,9 @@
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-  margin-top: 30px;
 }
 
-.noticia-card {
+.noticiaCard {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,15 +36,14 @@
   border-radius: 15px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
   padding: 20px;
-  align-items: center;
   transition: transform 0.3s ease;
 }
 
-.noticia-card:hover {
+.noticiaCard:hover {
   transform: scale(1.03);
 }
 
-.noticia-imagem {
+.noticiaImagem {
   width: 100%;
   height: 130px;
   object-fit: cover;
@@ -50,7 +52,7 @@
   margin-bottom: 10px;
 }
 
-.noticia-descricao h3 {
+.noticiaDescricao h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #1e3a8a;
@@ -60,7 +62,7 @@
   white-space: nowrap;
 }
 
-.noticia-descricao p {
+.noticiaDescricao p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #e11d48;
@@ -69,61 +71,58 @@
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
-  .noticias-container {
+  .noticiasContainer {
     margin-top: 60px;
   }
 
-  .noticias-title {
+  .noticiasTitle {
     padding: 30px;
     margin-bottom: 40px;
     font-size: 40px;
   }
 
-  .noticia-card {
+  .noticiaCard {
     padding: 40px;
   }
 
-  .noticia-descricao h3 {
+  .noticiaDescricao h3 {
     font-size: 40px;
     margin-bottom: 20px;
   }
 
-  .noticia-card:hover {
+  .noticiaCard:hover {
     transform: scale(1.06);
   }
 
-  .noticia-imagem {
+  .noticiaImagem {
     object-position: top;
     height: 260px;
   }
 
-  .noticia-descricao p {
+  .noticiaDescricao p {
     margin-top: 10px;
     font-size: 30px;
-  }
-
-  .proposta-description {
-    font-size: 25px;
   }
 }
 
 @media (min-width: 1024px) {
-  .noticias-title {
+  .noticiasTitle {
     margin-top: 60px;
   }
 
-  .noticia-card {
+  .noticiaCard {
     flex: 0 1 calc(30% - 20px);
     margin: 10px;
   }
-  .noticias-container {
+
+  .noticiasContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 30px;
   }
 
-  .noticia-imagem {
+  .noticiaImagem {
     height: 200px;
   }
 }
