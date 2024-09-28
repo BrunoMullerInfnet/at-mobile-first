@@ -126,3 +126,23 @@
     font-size: 25px;
   }
 }
+
+@media (min-width: 1024px) {
+  .propostas-cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .proposta-card {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 0;
+  }
+
+  .proposta-card:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .corrigir {
+    margin-top: 18px;
+  }
+}

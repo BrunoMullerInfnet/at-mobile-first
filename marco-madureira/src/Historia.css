@@ -79,3 +79,20 @@
     font-size: 2rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .historia-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .historia-imagem {
+    margin-right: 30px;
+    margin-bottom: 0;
+    height: 400px;
+  }
+
+  .historia-texto {
+    flex: 1;
+  }
+}

@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className="header-content" id="inicio">
-      <nav>
+      <nav className="navegar">
         <img
           src="src/assets/menu-icon.png"
           alt="Botão de menu"
@@ -32,26 +32,45 @@ const Header = () => {
             <a href="#historia" onClick={toggleMenu}>
               História
             </a>
-            <a href="#agenda" onClick={toggleMenu}>Agenda</a>
+            <a href="#agenda" onClick={toggleMenu}>
+              Agenda
+            </a>
           </div>
         )}
       </nav>
-      <img
-        src="src/assets/logo-icon.png"
-        alt="Logo"
-        title="Logo"
-        className="logo-icon"
-      />
-      <div className="zap-div">
-        <a href="">
-          <img
-            src="src/assets/zap.png"
-            alt="Whatsapp"
-            title="Contanto"
-            className="zap"
-          />
-        </a>
+
+      <div className="div-logo">
+        <img
+          src="src/assets/logo-icon.png"
+          alt="Logo"
+          title="Logo"
+          className="logo-icon"
+        />
       </div>
+      <div className="menu-desktop">
+        <ul>
+          <li>
+            <a href="#propostas">Propostas</a>
+          </li>
+          <li>
+            <a href="#noticias">Notícias</a>
+          </li>
+          <li>
+            <a href="#historia">História</a>
+          </li>
+          <li>
+            <a href="#agenda">Agenda</a>
+          </li>
+        </ul>
+      </div>
+      <a href="https://wa.me/5511999999999" target="blank">
+        <img
+          src="src/assets/zap.png"
+          alt="Whatsapp"
+          title="Contato"
+          className="zap"
+        />
+      </a>
     </div>
   );
 };

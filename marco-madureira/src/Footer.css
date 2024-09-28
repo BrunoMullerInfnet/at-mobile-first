@@ -129,3 +129,60 @@
     width: 100px;
   }
 }
+
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 60px 40px; /* Ajustar o preenchimento */
+    margin-top: 60px; /* Ajustar a margem */
+  }
+
+  .footer-content {
+    padding: 40px; /* Ajustar o preenchimento */
+    display: flex; /* Usar flex para a disposição */
+    flex-direction: row; /* Disposição em linha */
+    align-items: center; /* Centralizar verticalmente */
+    justify-content: space-between; /* Espaçamento entre os elementos */
+  }
+
+  .form-header {
+    gap: 30px; /* Aumentar o espaço entre imagem e título */
+  }
+
+  .anti-communism-image {
+    width: 100px; /* Ajustar o tamanho da imagem */
+    height: 100px; /* Ajustar a altura da imagem */
+  }
+
+  .form-title {
+    font-size: 2.5rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .form-input {
+    padding: 15px;
+    font-size: 1.5rem;
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .form-submit-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+  }
+
+  .div-rede-social {
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 30px;
+  }
+
+  .insta {
+    width: 60px;
+    height: 60px;
+  }
+}

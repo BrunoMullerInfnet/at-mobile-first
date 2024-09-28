@@ -137,3 +137,16 @@
     font-size: 25px;
   }
 }
+
+@media (min-width: 1024px) {
+  .agenda-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .agenda-card {
+    flex: 1;
+    min-width: 300px;
+  }
+}

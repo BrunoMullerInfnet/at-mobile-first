@@ -55,8 +55,67 @@
   font-weight: 100;
 }
 
-@media (min-width: 768px) {
-  .dropdown-menu {
+.menu-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .header-content {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    justify-content: space-around;
+  }
+
+  .navegar {
+    display: none;
+  }
+
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-desktop {
+    display: flex;
+  }
+
+  .menu-desktop ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .logo-icon {
+    max-width: 120px;
+    height: auto;
+  }
+
+  .menu-desktop a {
+    color: #e11d48;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .menu-desktop a:hover {
+    color: #ffffff;
+  }
+
+  .zap {
+    width: 50px;
+    height: 50px;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-dropdown {
     display: none;
   }
 }

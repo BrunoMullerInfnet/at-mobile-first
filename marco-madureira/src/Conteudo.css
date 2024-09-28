@@ -121,9 +121,9 @@
   background-color: #b71c3c;
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 1023px) {
   * {
-    max-width: 768px;
+    max-width: 1023px;
   }
 
   .header-content {
@@ -182,5 +182,31 @@
 
   .back-to-top img {
     transform: scale(1.5);
+  }
+}
+
+@media (min-width: 1024px) {
+  * {
+    max-width: none;
+  }
+  body {
+    min-width: 1024px;
+    max-width: 100%;
+  }
+
+  .apresentation-card {
+    margin-top: 60px;
+  }
+
+  .apresentation-card {
+    margin: 40px 0 50px 0;
+  }
+
+  .politico {
+    height: 200px;
+  }
+
+  .apresentation-text {
+    font-size: 30px;
   }
 }
